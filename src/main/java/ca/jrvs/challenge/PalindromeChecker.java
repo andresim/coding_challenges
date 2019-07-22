@@ -11,13 +11,13 @@ public class PalindromeChecker {
   // Return result of above line
 
   public static void palindromeCheck(String s) {
-    char[] stringtoCheck = s.toCharArray();
-    int length = stringtoCheck.length;
+    char[] stringToCheck = s.toCharArray();
+    int length = stringToCheck.length;
 
     char[] reverseArray = null;
 
-    for (int i = 0; i < stringtoCheck.length; i++) {
-      reverseArray[length] = stringtoCheck[i];
+    for (int i = 0; i < stringToCheck.length; i++) {
+      reverseArray[length] = stringToCheck[i];
       length--;
     }
 
