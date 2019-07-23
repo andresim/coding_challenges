@@ -9,18 +9,15 @@ public class LargestSmallestInts {
   // Sort the array using built in array method
   // Return values at index 0 and index = array.length - 1
 
-  public static int[] largeSmall(int[] array){
+  public static void largeSmall(int[] array) {
 
     int[] largeSmall = new int[2];
 
     Arrays.sort(array);
     largeSmall[0] = array[0];
-    largeSmall[1] = array[array.length-1];
+    largeSmall[1] = array[array.length - 1];
 
-    return largeSmall;
-
-    //OR:
-    //System.out.println(largeSmall);
+    System.out.println("[" + largeSmall[0] + "," + largeSmall[1] + "]");
   }
 
 }
