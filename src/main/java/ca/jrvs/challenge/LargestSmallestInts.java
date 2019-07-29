@@ -2,12 +2,10 @@ package ca.jrvs.challenge;
 
 import java.util.Arrays;
 
+/**
+ * Program to return the largest and smallest integers given an unsorted integer array
+ */
 public class LargestSmallestInts {
-
-  // Given an array of integers, will return the smallest and largest values
-
-  // Sort the array using built in array method
-  // Return values at index 0 and index = array.length - 1
 
   public static void largeSmall(int[] array) {
 

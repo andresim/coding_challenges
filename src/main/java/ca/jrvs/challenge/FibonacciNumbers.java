@@ -1,12 +1,11 @@
 package ca.jrvs.challenge;
 
+/**
+ * The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such
+ * that each number is the sum of the two preceding ones, starting from 0 and 1. Given N, calculate
+ * the fibonacci number at N
+ */
 public class FibonacciNumbers {
-
-  // Recursion will be huge here
-
-  // Given a # n, have function call itself for n-1 and n-2 (recursively)
-  // Have static conditions so that if n = 1, it will return 1 and if n = 0 it will return 0
-  // Sum the F(n-1) and F(n-2) values
 
   public static int fibonacci(int n) {
     int sum = 0;

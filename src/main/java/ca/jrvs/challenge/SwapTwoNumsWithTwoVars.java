@@ -1,9 +1,11 @@
 package ca.jrvs.challenge;
 
+/**
+ * Program that swaps two numbers without a third variable by doing some clever math
+ */
 public class SwapTwoNumsWithTwoVars {
 
   public static void swapNums(int x, int y) {
-    // Going to add the two together into one variable, then subtract to get the difference
 
     x = x + y;
     y = x - y;

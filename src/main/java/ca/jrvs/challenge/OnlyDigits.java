@@ -2,11 +2,10 @@ package ca.jrvs.challenge;
 
 import java.math.BigInteger;
 
+/**
+ * Program to check if a string contains only digits
+ */
 public class OnlyDigits {
-
-  // Take in string
-  // Attempt to convert to a big int
-  // Return result
 
   public static void digitsCheck(String s) {
     try {

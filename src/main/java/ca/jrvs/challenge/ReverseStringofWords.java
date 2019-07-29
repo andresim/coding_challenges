@@ -1,5 +1,8 @@
 package ca.jrvs.challenge;
 
+/**
+ * Given an input string, this will reverse the string word by word.
+ */
 public class ReverseStringofWords {
 
   public String reverseWords(String s) {

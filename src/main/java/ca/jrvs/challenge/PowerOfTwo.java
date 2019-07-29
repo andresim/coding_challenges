@@ -2,15 +2,10 @@ package ca.jrvs.challenge;
 
 import static java.lang.StrictMath.log;
 
+/**
+ * Given an integer, write a function to determine if it is a power of two.
+ */
 public class PowerOfTwo {
-
-  // Check to see if input # is a power of 2
-
-  // Static condition to check if input is 1
-  // Static condition to check if # is odd
-
-  // Do log of the number over log 2
-  // Check to see if the result is a whole number (no decimals) (can use % for this)
 
   public static void powOfTwoCheck(int n) {
 

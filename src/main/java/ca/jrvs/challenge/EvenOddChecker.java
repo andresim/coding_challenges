@@ -1,5 +1,8 @@
 package ca.jrvs.challenge;
 
+/**
+ * Simple program to check if a number is even or odd using a modulo and bitwise method
+ */
 public class EvenOddChecker {
 
   // MOD METHOD

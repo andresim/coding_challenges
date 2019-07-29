@@ -1,13 +1,13 @@
 package ca.jrvs.challenge;
 
+/**
+ * Program that implements a (singly) linked list and base methods (adding, deleting, searching)
+ */
 public class LinkedListImp {
-
-  // Implements a (singly) linked list and base methods (adding, deleting, searching)
-
-  //TODO implement a basic linked list and some simple methods
 
   public Node head;
   public int size;
+
   // Constructor for linked list based on Node
   public LinkedListImp() {
     head = new Node(0);

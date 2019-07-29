@@ -2,11 +2,11 @@ package ca.jrvs.challenge;
 
 import java.util.Stack;
 
+/**
+ * Binary Search tree implementation. Has the base node class and a few common methods used with
+ * BST
+ */
 public class BSTImplementation {
-
-  // Implements a BST and some base methods for it (such as searching, adding and removing nodes)
-
-  //TODO implement a BST instance (node class and base methods)
 
   private Node root;
 

@@ -2,13 +2,10 @@ package ca.jrvs.challenge;
 
 import java.util.Arrays;
 
+/**
+ * Given two strings s and t , write a function to determine if t is an anagram of s.
+ */
 public class ValidAnagram {
-
-  // Given two strings:
-
-  // Convert both two lowercase
-  // Sort both into alphabetical order
-  // If string1 = string 2 then its an anagram
 
   public static void anagramCheck(String s, String t) {
     s = s.toLowerCase();

@@ -1,5 +1,8 @@
 package ca.jrvs.challenge;
 
+/**
+ * Program to reverse a singly linked list.
+ */
 public class ReverseLinkedList {
 
   public ListNode reverseList(ListNode head) {

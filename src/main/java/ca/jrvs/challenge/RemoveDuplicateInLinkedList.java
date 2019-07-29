@@ -3,6 +3,9 @@ package ca.jrvs.challenge;
 import ca.jrvs.challenge.LinkedListImp.Node;
 import java.util.HashMap;
 
+/**
+ * Program to remove duplicates in an unsorted linked list
+ */
 public class RemoveDuplicateInLinkedList {
 
   public void removeDuplicate(LinkedListImp list) {

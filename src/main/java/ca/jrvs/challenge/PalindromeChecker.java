@@ -2,15 +2,20 @@ package ca.jrvs.challenge;
 
 import java.util.Arrays;
 
+/**
+ * Given a string, determine if it is a palindrome, considering only alphanumeric characters and
+ * ignoring cases.
+ *
+ * Note: For the purpose of this problem, we define empty string as valid palindrome.
+ */
 public class PalindromeChecker {
 
-  // Take in String
-  // Save copy of original string
-  // Put String in Reverse order
-  // see if reverse matches original
-  // Return result of above line
-
   public static void palindromeCheck(String s) {
+
+    if (s.equals("")) {
+      System.out.println("The string is a palindrome");
+      return;
+    }
     char[] stringToCheck = s.toCharArray();
     int length = stringToCheck.length;
 

@@ -3,15 +3,11 @@ package ca.jrvs.challenge;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Given a list of ints and a target, find the two indices where the numbers at those indices sum to
+ * the target.
+ */
 public class TwoSum {
-
-  // Given a list of ints and a target, find the two indices where the numbers at those indices sum
-  // to the target.
-
-  // Store entire list in a map (key = value, value = index)
-  // Traverse the list
-  // For each element, check if target - element = a key in the map
-  // If it does, return the value from the dict and the current index
 
   public static void twoSum(List<Integer> intList, int target) {
     boolean found = false;
