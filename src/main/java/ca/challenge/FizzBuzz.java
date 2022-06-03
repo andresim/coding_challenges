@@ -1,7 +1,7 @@
 package ca.challenge;
 
 /**
- * Classic Fizzbuzz. This version allows users to input the numbers they want to fizz and buzz on
+ * Classic Fizzbuzz. This version allows users to input the numbers they want to fizz and buzz
  */
 public class FizzBuzz {
 
