@@ -9,21 +9,6 @@ import java.util.Map;
  */
 public class LongestSubstring {
 
-    /*
-    "abcbegd"
-    ans = 1
-    map contains a
-
-    ans = 2
-    map contains ab
-
-    ans = 3
-    map contains abc
-
-    ans = 
-
-    */
-
     public int lengthOfLongestSubstring(String s) {
 
         int n = s.length();
