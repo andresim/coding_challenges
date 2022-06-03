@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Function to find the longest substring within a given string of characters that
- * does not repeat any characters. 
+ * does not repeat any characters. Uses a hashmap and rolling window for performance optimization.
  */
 public class LongestSubstring {
 
